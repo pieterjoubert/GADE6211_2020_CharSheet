@@ -44,45 +44,49 @@
             this.txtAbility5 = new System.Windows.Forms.TextBox();
             this.txtAbility6 = new System.Windows.Forms.TextBox();
             this.cmbAbility1 = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtWisdom = new System.Windows.Forms.TextBox();
+            this.txtCharisma = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtStrength = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtConstitution = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtDexterity = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtIntelligence = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.cmbAbility2 = new System.Windows.Forms.ComboBox();
             this.cmbAbility3 = new System.Windows.Forms.ComboBox();
             this.cmbAbility4 = new System.Windows.Forms.ComboBox();
             this.cmbAbility5 = new System.Windows.Forms.ComboBox();
             this.cmbAbility6 = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.txtCharacter = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.cmbAbility6);
             this.groupBox1.Controls.Add(this.cmbAbility5);
             this.groupBox1.Controls.Add(this.cmbAbility4);
             this.groupBox1.Controls.Add(this.cmbAbility3);
             this.groupBox1.Controls.Add(this.cmbAbility2);
+            this.groupBox1.Controls.Add(this.txtIntelligence);
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.txtDexterity);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.txtConstitution);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.txtStrength);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.txtCharisma);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.txtWisdom);
+            this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.cmbAbility1);
             this.groupBox1.Controls.Add(this.txtAbility6);
             this.groupBox1.Controls.Add(this.txtAbility5);
@@ -106,6 +110,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.txtCharacter);
             this.groupBox2.Location = new System.Drawing.Point(591, 12);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(507, 616);
@@ -156,6 +161,7 @@
             this.cmbClass.Name = "cmbClass";
             this.cmbClass.Size = new System.Drawing.Size(121, 21);
             this.cmbClass.TabIndex = 6;
+            this.cmbClass.SelectedIndexChanged += new System.EventHandler(this.CmbClass_SelectedIndexChanged);
             // 
             // lblClass
             // 
@@ -221,50 +227,18 @@
             // cmbAbility1
             // 
             this.cmbAbility1.FormattingEnabled = true;
+            this.cmbAbility1.Items.AddRange(new object[] {
+            "Wis",
+            "Cha",
+            "Str",
+            "Con",
+            "Dex",
+            "Int"});
             this.cmbAbility1.Location = new System.Drawing.Point(109, 141);
             this.cmbAbility1.Name = "cmbAbility1";
             this.cmbAbility1.Size = new System.Drawing.Size(42, 21);
             this.cmbAbility1.TabIndex = 15;
-            // 
-            // cmbAbility2
-            // 
-            this.cmbAbility2.FormattingEnabled = true;
-            this.cmbAbility2.Location = new System.Drawing.Point(157, 141);
-            this.cmbAbility2.Name = "cmbAbility2";
-            this.cmbAbility2.Size = new System.Drawing.Size(42, 21);
-            this.cmbAbility2.TabIndex = 16;
-            // 
-            // cmbAbility3
-            // 
-            this.cmbAbility3.FormattingEnabled = true;
-            this.cmbAbility3.Location = new System.Drawing.Point(203, 141);
-            this.cmbAbility3.Name = "cmbAbility3";
-            this.cmbAbility3.Size = new System.Drawing.Size(42, 21);
-            this.cmbAbility3.TabIndex = 17;
-            // 
-            // cmbAbility4
-            // 
-            this.cmbAbility4.FormattingEnabled = true;
-            this.cmbAbility4.Location = new System.Drawing.Point(251, 141);
-            this.cmbAbility4.Name = "cmbAbility4";
-            this.cmbAbility4.Size = new System.Drawing.Size(42, 21);
-            this.cmbAbility4.TabIndex = 18;
-            // 
-            // cmbAbility5
-            // 
-            this.cmbAbility5.FormattingEnabled = true;
-            this.cmbAbility5.Location = new System.Drawing.Point(299, 141);
-            this.cmbAbility5.Name = "cmbAbility5";
-            this.cmbAbility5.Size = new System.Drawing.Size(42, 21);
-            this.cmbAbility5.TabIndex = 19;
-            // 
-            // cmbAbility6
-            // 
-            this.cmbAbility6.FormattingEnabled = true;
-            this.cmbAbility6.Location = new System.Drawing.Point(347, 141);
-            this.cmbAbility6.Name = "cmbAbility6";
-            this.cmbAbility6.Size = new System.Drawing.Size(42, 21);
-            this.cmbAbility6.TabIndex = 20;
+            this.cmbAbility1.SelectedIndexChanged += new System.EventHandler(this.CmbAbility1_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -275,19 +249,19 @@
             this.label3.TabIndex = 21;
             this.label3.Text = "Wisdom";
             // 
-            // textBox1
+            // txtWisdom
             // 
-            this.textBox1.Location = new System.Drawing.Point(111, 197);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(36, 20);
-            this.textBox1.TabIndex = 22;
+            this.txtWisdom.Location = new System.Drawing.Point(111, 197);
+            this.txtWisdom.Name = "txtWisdom";
+            this.txtWisdom.Size = new System.Drawing.Size(36, 20);
+            this.txtWisdom.TabIndex = 22;
             // 
-            // textBox2
+            // txtCharisma
             // 
-            this.textBox2.Location = new System.Drawing.Point(111, 223);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(36, 20);
-            this.textBox2.TabIndex = 24;
+            this.txtCharisma.Location = new System.Drawing.Point(111, 223);
+            this.txtCharisma.Name = "txtCharisma";
+            this.txtCharisma.Size = new System.Drawing.Size(36, 20);
+            this.txtCharisma.TabIndex = 24;
             // 
             // label4
             // 
@@ -298,12 +272,12 @@
             this.label4.TabIndex = 23;
             this.label4.Text = "Charisma";
             // 
-            // textBox3
+            // txtStrength
             // 
-            this.textBox3.Location = new System.Drawing.Point(111, 249);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(36, 20);
-            this.textBox3.TabIndex = 26;
+            this.txtStrength.Location = new System.Drawing.Point(111, 249);
+            this.txtStrength.Name = "txtStrength";
+            this.txtStrength.Size = new System.Drawing.Size(36, 20);
+            this.txtStrength.TabIndex = 26;
             // 
             // label5
             // 
@@ -314,12 +288,12 @@
             this.label5.TabIndex = 25;
             this.label5.Text = "Strength";
             // 
-            // textBox4
+            // txtConstitution
             // 
-            this.textBox4.Location = new System.Drawing.Point(111, 275);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(36, 20);
-            this.textBox4.TabIndex = 28;
+            this.txtConstitution.Location = new System.Drawing.Point(111, 275);
+            this.txtConstitution.Name = "txtConstitution";
+            this.txtConstitution.Size = new System.Drawing.Size(36, 20);
+            this.txtConstitution.TabIndex = 28;
             // 
             // label6
             // 
@@ -330,12 +304,12 @@
             this.label6.TabIndex = 27;
             this.label6.Text = "Consititution";
             // 
-            // textBox5
+            // txtDexterity
             // 
-            this.textBox5.Location = new System.Drawing.Point(111, 301);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(36, 20);
-            this.textBox5.TabIndex = 30;
+            this.txtDexterity.Location = new System.Drawing.Point(111, 301);
+            this.txtDexterity.Name = "txtDexterity";
+            this.txtDexterity.Size = new System.Drawing.Size(36, 20);
+            this.txtDexterity.TabIndex = 30;
             // 
             // label7
             // 
@@ -346,12 +320,12 @@
             this.label7.TabIndex = 29;
             this.label7.Text = "Dexterity";
             // 
-            // textBox6
+            // txtIntelligence
             // 
-            this.textBox6.Location = new System.Drawing.Point(111, 327);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(36, 20);
-            this.textBox6.TabIndex = 32;
+            this.txtIntelligence.Location = new System.Drawing.Point(111, 327);
+            this.txtIntelligence.Name = "txtIntelligence";
+            this.txtIntelligence.Size = new System.Drawing.Size(36, 20);
+            this.txtIntelligence.TabIndex = 32;
             // 
             // label8
             // 
@@ -361,6 +335,104 @@
             this.label8.Size = new System.Drawing.Size(61, 13);
             this.label8.TabIndex = 31;
             this.label8.Text = "Intelligence";
+            // 
+            // cmbAbility2
+            // 
+            this.cmbAbility2.FormattingEnabled = true;
+            this.cmbAbility2.Items.AddRange(new object[] {
+            "Wis",
+            "Cha",
+            "Str",
+            "Con",
+            "Dex",
+            "Int"});
+            this.cmbAbility2.Location = new System.Drawing.Point(157, 141);
+            this.cmbAbility2.Name = "cmbAbility2";
+            this.cmbAbility2.Size = new System.Drawing.Size(42, 21);
+            this.cmbAbility2.TabIndex = 33;
+            this.cmbAbility2.SelectedIndexChanged += new System.EventHandler(this.CmbAbility2_SelectedIndexChanged);
+            // 
+            // cmbAbility3
+            // 
+            this.cmbAbility3.FormattingEnabled = true;
+            this.cmbAbility3.Items.AddRange(new object[] {
+            "Wis",
+            "Cha",
+            "Str",
+            "Con",
+            "Dex",
+            "Int"});
+            this.cmbAbility3.Location = new System.Drawing.Point(205, 141);
+            this.cmbAbility3.Name = "cmbAbility3";
+            this.cmbAbility3.Size = new System.Drawing.Size(42, 21);
+            this.cmbAbility3.TabIndex = 34;
+            this.cmbAbility3.SelectedIndexChanged += new System.EventHandler(this.CmbAbility3_SelectedIndexChanged);
+            // 
+            // cmbAbility4
+            // 
+            this.cmbAbility4.FormattingEnabled = true;
+            this.cmbAbility4.Items.AddRange(new object[] {
+            "Wis",
+            "Cha",
+            "Str",
+            "Con",
+            "Dex",
+            "Int"});
+            this.cmbAbility4.Location = new System.Drawing.Point(253, 141);
+            this.cmbAbility4.Name = "cmbAbility4";
+            this.cmbAbility4.Size = new System.Drawing.Size(42, 21);
+            this.cmbAbility4.TabIndex = 35;
+            this.cmbAbility4.SelectedIndexChanged += new System.EventHandler(this.CmbAbility4_SelectedIndexChanged);
+            // 
+            // cmbAbility5
+            // 
+            this.cmbAbility5.FormattingEnabled = true;
+            this.cmbAbility5.Items.AddRange(new object[] {
+            "Wis",
+            "Cha",
+            "Str",
+            "Con",
+            "Dex",
+            "Int"});
+            this.cmbAbility5.Location = new System.Drawing.Point(297, 141);
+            this.cmbAbility5.Name = "cmbAbility5";
+            this.cmbAbility5.Size = new System.Drawing.Size(42, 21);
+            this.cmbAbility5.TabIndex = 36;
+            this.cmbAbility5.SelectedIndexChanged += new System.EventHandler(this.CmbAbility5_SelectedIndexChanged);
+            // 
+            // cmbAbility6
+            // 
+            this.cmbAbility6.FormattingEnabled = true;
+            this.cmbAbility6.Items.AddRange(new object[] {
+            "Wis",
+            "Cha",
+            "Str",
+            "Con",
+            "Dex",
+            "Int"});
+            this.cmbAbility6.Location = new System.Drawing.Point(345, 141);
+            this.cmbAbility6.Name = "cmbAbility6";
+            this.cmbAbility6.Size = new System.Drawing.Size(42, 21);
+            this.cmbAbility6.TabIndex = 37;
+            this.cmbAbility6.SelectedIndexChanged += new System.EventHandler(this.CmbAbility6_SelectedIndexChanged);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(20, 367);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(115, 23);
+            this.button1.TabIndex = 38;
+            this.button1.Text = "Save Ability Scores";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            // 
+            // txtCharacter
+            // 
+            this.txtCharacter.Location = new System.Drawing.Point(27, 28);
+            this.txtCharacter.Multiline = true;
+            this.txtCharacter.Name = "txtCharacter";
+            this.txtCharacter.Size = new System.Drawing.Size(430, 362);
+            this.txtCharacter.TabIndex = 0;
             // 
             // Form1
             // 
@@ -373,6 +445,8 @@
             this.Text = "Character Builder";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -381,23 +455,18 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtIntelligence;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtDexterity;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtConstitution;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtStrength;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtCharisma;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtWisdom;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox cmbAbility6;
-        private System.Windows.Forms.ComboBox cmbAbility5;
-        private System.Windows.Forms.ComboBox cmbAbility4;
-        private System.Windows.Forms.ComboBox cmbAbility3;
-        private System.Windows.Forms.ComboBox cmbAbility2;
         private System.Windows.Forms.ComboBox cmbAbility1;
         private System.Windows.Forms.TextBox txtAbility6;
         private System.Windows.Forms.TextBox txtAbility5;
@@ -412,6 +481,13 @@
         private System.Windows.Forms.TextBox txtCharName;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtPlayerName;
+        private System.Windows.Forms.ComboBox cmbAbility6;
+        private System.Windows.Forms.ComboBox cmbAbility5;
+        private System.Windows.Forms.ComboBox cmbAbility4;
+        private System.Windows.Forms.ComboBox cmbAbility3;
+        private System.Windows.Forms.ComboBox cmbAbility2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtCharacter;
     }
 }
 

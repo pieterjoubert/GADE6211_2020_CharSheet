@@ -13,7 +13,7 @@ namespace GADE62111_2020_CharSheet
         Wizard
     }
 
-    public class Character
+    public abstract class Character
     {
         private Random r = new Random();
 
@@ -58,6 +58,7 @@ namespace GADE62111_2020_CharSheet
                 {
                     diceRolls[j] = r.Next(1, 7);
                 }
+                diceRolls = Sort(diceRolls);
                 tempValues[i] = diceRolls[0] + diceRolls[1] + diceRolls[2];
             }
 
@@ -70,7 +71,7 @@ namespace GADE62111_2020_CharSheet
             {
                 for(int j = 0; j < unsorted.Length; j++)
                 {
-                    if(unsorted[i] < unsorted[j])
+                    if(unsorted[i] > unsorted[j])
                     {
                         int temp = unsorted[j];
                         unsorted[j] = unsorted[i];
@@ -81,5 +82,15 @@ namespace GADE62111_2020_CharSheet
 
             return unsorted;
         }
+
+        public override String ToString()
+        {
+            string temp = "";
+            temp += PlayerName + " " + CharacterName + " " + CharacterClass + " " + Wisdom + " "
+                 + Charisma + " " + Strength + " " + Consitution + " " + Dexterity + " " + Intelligence;
+            return temp;
+        }
+
+        abstract public void SetAbilityScores(int Wis, int Cha, int Str, int Con, int Dex, int Int);
     }
 }
