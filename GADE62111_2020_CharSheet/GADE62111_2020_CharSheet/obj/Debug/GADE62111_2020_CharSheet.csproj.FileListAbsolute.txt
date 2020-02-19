@@ -1,0 +1,10 @@
+D:\odrive\Google Drive\c-sharp\GADE6211_2020_CharSheet\GADE62111_2020_CharSheet\GADE62111_2020_CharSheet\bin\Debug\GADE62111_2020_CharSheet.exe.config
+D:\odrive\Google Drive\c-sharp\GADE6211_2020_CharSheet\GADE62111_2020_CharSheet\GADE62111_2020_CharSheet\bin\Debug\GADE62111_2020_CharSheet.exe
+D:\odrive\Google Drive\c-sharp\GADE6211_2020_CharSheet\GADE62111_2020_CharSheet\GADE62111_2020_CharSheet\bin\Debug\GADE62111_2020_CharSheet.pdb
+D:\odrive\Google Drive\c-sharp\GADE6211_2020_CharSheet\GADE62111_2020_CharSheet\GADE62111_2020_CharSheet\obj\Debug\GADE62111_2020_CharSheet.csprojAssemblyReference.cache
+D:\odrive\Google Drive\c-sharp\GADE6211_2020_CharSheet\GADE62111_2020_CharSheet\GADE62111_2020_CharSheet\obj\Debug\GADE62111_2020_CharSheet.Form1.resources
+D:\odrive\Google Drive\c-sharp\GADE6211_2020_CharSheet\GADE62111_2020_CharSheet\GADE62111_2020_CharSheet\obj\Debug\GADE62111_2020_CharSheet.Properties.Resources.resources
+D:\odrive\Google Drive\c-sharp\GADE6211_2020_CharSheet\GADE62111_2020_CharSheet\GADE62111_2020_CharSheet\obj\Debug\GADE62111_2020_CharSheet.csproj.GenerateResource.cache
+D:\odrive\Google Drive\c-sharp\GADE6211_2020_CharSheet\GADE62111_2020_CharSheet\GADE62111_2020_CharSheet\obj\Debug\GADE62111_2020_CharSheet.csproj.CoreCompileInputs.cache
+D:\odrive\Google Drive\c-sharp\GADE6211_2020_CharSheet\GADE62111_2020_CharSheet\GADE62111_2020_CharSheet\obj\Debug\GADE62111_2020_CharSheet.exe
+D:\odrive\Google Drive\c-sharp\GADE6211_2020_CharSheet\GADE62111_2020_CharSheet\GADE62111_2020_CharSheet\obj\Debug\GADE62111_2020_CharSheet.pdb
